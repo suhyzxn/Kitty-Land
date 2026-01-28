@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: lightsteelblue; 
+    overflow: hidden;
+}
+
+header {
+    padding-left: 240px; 
+    width: 100%; 
+    height: 100px;
+}
+
+nav {
+    width: 30%; 
+    height: calc(100vh - 200px); 
+    float: left;
+    padding-left: 200px;
+    box-sizing: border-box;
+    padding-right: 70px;
+}
+
+section {
+    width: 50%; 
+    height: calc(100vh - 200px); 
+    float: left;
+}
+
+section div {
+    height: 500px;
+    overflow-y: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: papayawhip;
+}
+
+footer {
+    width: 100%; 
+    height: 100px; 
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none; 
+    color: darkblue; 
+    display: block; 
+    padding: 8px; 
+    background-color: lightgray; 
+    margin-bottom: 5px;
+}
